@@ -1,0 +1,121 @@
+.netflix_background_image{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("https://assets.nflxext.com/ffe/siteui/vlv3/855ed6e2-d9f1-4afd-90da-96023ec747c3/85eb5b91-25ed-4965-ace9-ba8e4a0ead8d/IN-en-20230828-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height:100vh;
+    
+}
+.netflix_img{
+    height:30px;
+    width:70px;
+    margin-right:10px;
+}
+.heading{
+    color:white;
+    font-weight: bold;
+    font-family: 'roboto';
+    font-size:60px;
+
+}
+.paragraph{
+    color:white;
+    
+}
+.bt_sec{
+    background-color:red;
+    padding:10px;
+    color:white;
+    border-radius:8px;
+    font-weight:bold;
+}
+.email_sec{
+    padding:10px;
+    border-radius:8px;
+
+}
+.nav_sec{
+    color:black;
+    font-weight: bold;
+}
+.first_sec_background{
+    background-color:black;
+    
+}
+hr.hr_sec{
+    height:2px;
+    border:none;
+    border-radius:10px;
+    color:rgb(14, 12, 12);
+}
+.second_img_sec{
+    height:320px;
+    width:380px;
+}
+.third_img{
+    width:352px;
+    height:264px;
+}
+.text_color{
+    color:white;
+}
+.text_head{
+    color:white;
+    font-weight:900;
+}
+.accordion{
+    margin:60px auto;
+    width:100%;
+    max-width:750px;
+}
+.accordion li{
+    list-style:none;
+    width:100%;
+    padding:5px;
+}
+.accordion li label{
+    display:flex;
+    align-items:center;
+    padding:20px;
+    font-size:18px;
+    font-weight:500;
+    background:#303030;
+    margin-bottom: 2px;
+    cursor:pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size:34px;
+    position: absolute;
+    right:20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background:#303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height:600px;
+    padding:30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+.footer_text{
+    color:#777;
+    font-size:20px;
+}
+a{
+    color:white;
+}
+.footer_btn{
+    background-color:black;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+}
